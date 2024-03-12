@@ -91,6 +91,9 @@ instance/
 *.sqlite
 *.sqlite3
 
+# SQL Queries
+*.sql
+
 # Configurations
 config.json
 config.yaml
@@ -105,3 +108,7 @@ backup/
 tmp/
 temp/
 node_modules/
+
+# Ignore instances but keep the directory
+config/*
+p310/*
